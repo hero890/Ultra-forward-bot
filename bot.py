@@ -36,7 +36,7 @@ class Bot(Client):
         self.username = me.username
         self.first_name = me.first_name
         self.set_parse_mode(ParseMode.DEFAULT)
-        text = "**๏[-ิ_•ิ]๏ bot restarted !**"
+        text = "**๏[-ิ_•ิ]๏ bot restarted !Bye**"
         logging.info(text)
         success = failed = 0
         users = await db.get_all_frwd()
