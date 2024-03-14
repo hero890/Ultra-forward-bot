@@ -6,7 +6,7 @@ class Config:
     BOT_TOKEN = environ.get("BOT_TOKEN", "7191328870:AAGdI04YGNdasxFik-YWVTEqXXoU1yK_V9s") 
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://rani828719:sVyRWZOrUzIWNfHp@cluster0.zodktob.mongodb.net/?retryWrites=true&w=majority")
-    DATABASE_NAME = environ.get("DATABASE_NAME", "**kwargs")
+    DATABASE_NAME = environ.get("DATABASE_NAME", "i")
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '6287591671').split()]
     
 class temp(object): 
