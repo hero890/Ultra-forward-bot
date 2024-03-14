@@ -5,7 +5,7 @@ class Config:
     API_HASH = environ.get("API_HASH", "0ff15ae2153bd8e03b48cb293010bc6a")
     BOT_TOKEN = environ.get("BOT_TOKEN", "7191328870:AAGdI04YGNdasxFik-YWVTEqXXoU1yK_V9s") 
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
-    DATABASE_URI = environ.get("DATABASE_URI", "Pyrogram string Seccion - https://replit.com/@JijinR/PyroSessionString?v=1")
+    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://rani828719:sVyRWZOrUzIWNfHp@cluster0.zodktob.mongodb.net/?retryWrites=true&w=majority")
     DATABASE_NAME = environ.get("DATABASE_NAME", "**kwargs")
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '6287591671').split()]
     
